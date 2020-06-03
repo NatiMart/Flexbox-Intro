@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(30, 233, 216);
+}
+.container1{
+    background-color: rgb(231, 47, 255);
+    width: 80%;
+    Display: flex;
+    /*justify-content: center;*/
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.container2{
+    background-color: rgb(255, 47, 168);
+    width: 80%;
+    min-height: 400px;
+    justify-content: space-around;
+    Display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: stretch;
+}
+
+.item1{
+    background-color: rgb(0, 255, 157);
+    border: 2px solid white;
+    width: 25%;
+    /*min-width: 200px;*/
+    min-height: 60px;
+    margin: 4px
+}
